@@ -1,0 +1,22 @@
+{
+  "name": "node-helpers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ashik Nesin <mail@ashiknesin.com>",
+  "license": "ISC",
+  "dependencies": {
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-register": "^6.23.0",
+    "body-parser": "^1.17.0",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.0",
+    "sendgrid": "^4.7.1"
+  }
+}
